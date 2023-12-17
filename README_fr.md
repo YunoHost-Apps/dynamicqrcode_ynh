@@ -21,7 +21,7 @@ Ceci est une fausse description des fonctionalités de l'app
 
 **Version incluse :** 2.2~ynh1
 
-**Démo :** https://demo.example.com
+**Démo :** https://giandonatoinverso.it/qrcode/login.php
 
 ## Captures d’écran
 

@@ -20,7 +20,7 @@ PHP Dynamic Qr code is a script that allows the generation and saving of dynamic
 
 **Shipped version:** 2.2~ynh1
 
-**Demo:** https://demo.example.com
+**Demo:** https://giandonatoinverso.it/qrcode/login.php
 
 ## Screenshots
 
