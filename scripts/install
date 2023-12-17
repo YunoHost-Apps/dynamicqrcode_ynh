@@ -18,6 +18,7 @@ ynh_script_progression --message="Setting up source files..." --weight=1
 
 # Download, check integrity, uncompress and patch the source from manifest.toml
 ynh_setup_source --dest_dir="$install_dir"
+mv $install_dir/src $install_dir/
 
 chown -R $app:www-data "$install_dir"
 
@@ -37,10 +38,10 @@ ynh_add_nginx_config
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="environment.php" --destination="$install_dir/src/config/environment.php"
+ynh_add_config --template="environment.php" --destination="$install_dir/config/environment.php"
 
-chmod 400 "$install_dir/src/config/environment.php"
-chown $app:$app "$install_dir/src/config/environment.php"
+chmod 400 "$install_dir/config/environment.php"
+chown $app:$app "$install_dir/config/environment.php"
 
 #=================================================
 # END OF SCRIPT
