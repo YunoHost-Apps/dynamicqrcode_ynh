@@ -26,10 +26,8 @@ chown -R $app:www-data "$install_dir"
 #=================================================
 ynh_script_progression --message="Adding system configurations related to $app..." --weight=1
 
-# Create a dedicated PHP-FPM config using the conf/php-fpm.conf or conf/extra_php-fpm.conf
 ynh_add_fpm_config
 
-# Create a dedicated NGINX config using the conf/nginx.conf template
 ynh_add_nginx_config
 
 #=================================================
@@ -41,7 +39,7 @@ ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 ynh_add_config --template="environment.php" --destination="$install_dir/src/config/environment.php"
 
-chmod 650 "$install_dir/src/config/environment.php"
+chmod 400 "$install_dir/src/config/environment.php"
 chown $app:$app "$install_dir/src/config/environment.php"
 
 #=================================================

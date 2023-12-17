@@ -13,7 +13,6 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
-website = "https://example.com"
 demo = "https://giandonatoinverso.it/qrcode/login.php"
 admindoc = "https://giandonatoinverso.it/qrcode/documentation/"
 code = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code"
