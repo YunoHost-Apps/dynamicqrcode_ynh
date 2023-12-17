@@ -24,11 +24,10 @@ PHP Dynamic Qr code is a script that allows the generation and saving of dynamic
 
 ## Screenshots
 
-![Screenshot of qrcode](./doc/screenshots/example.jpg)
+![Screenshot of qrcode](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 
-* Official app website: <https://example.com>
 * Official admin documentation: <https://giandonatoinverso.it/qrcode/documentation/>
 * Upstream app code repository: <https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code>
 * YunoHost Store: <https://apps.yunohost.org/app/qrcode>

@@ -16,8 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
-
+PHP Dynamic Qr code est un script qui permet la génération et la sauvegarde de codes QR dynamiques et statiques. Il a un design épuré, réactif et convivial. Il est basé sur AdminLte. Construit sur Bootstrap" et Core PHP Admin Panel, un simple panneau d'administration écrit en PHP de base qui contient une implémentation de fonctionnalités générales dont vous pourriez avoir besoin dans le panneau d'administration de votre site Web, telles que : gestion des enregistrements (CRUD), authentification sécurisée, pagination, filtres.
 
 **Version incluse :** 2.2~ynh1
 
@@ -25,11 +24,10 @@ Ceci est une fausse description des fonctionalités de l'app
 
 ## Captures d’écran
 
-![Capture d’écran de qrcode](./doc/screenshots/example.jpg)
+![Capture d’écran de qrcode](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://example.com>
 * Documentation officielle de l’admin : <https://giandonatoinverso.it/qrcode/documentation/>
 * Dépôt de code officiel de l’app : <https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code>
 * YunoHost Store: <https://apps.yunohost.org/app/qrcode>
