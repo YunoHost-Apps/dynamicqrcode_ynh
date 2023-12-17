@@ -41,12 +41,12 @@ ynh_add_nginx_config
 #=================================================
 # UPDATE A CONFIG FILE
 #=================================================
-ynh_script_progression --message="Updating a configuration file..." --weight=1
+#ynh_script_progression --message="Updating a configuration file..." --weight=1
 
-ynh_add_config --template="environment.php" --destination="$install_dir/src/config/environment.php"
+#ynh_add_config --template="environment.php" --destination="$install_dir/src/config/environment.php"
 
-chmod 400 "$install_dir/src/config/environment.php"
-chown $app:$app "$install_dir/src/config/environment.php"
+#chmod 400 "$install_dir/src/config/environment.php"
+#chown $app:$app "$install_dir/src/config/environment.php"
 
 #=================================================
 # END OF SCRIPT
