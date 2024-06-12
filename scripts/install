@@ -31,6 +31,8 @@ ynh_add_fpm_config
 
 ynh_add_nginx_config
 
+ynh_mysql_connect_as --user="$db_user" --password="$db_pwd" --database="$db_name" < $install_dir/src/install/sql/sample_data.sql
+
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
