@@ -31,6 +31,8 @@ ynh_add_fpm_config
 
 ynh_add_nginx_config
 
+ynh_mysql_connect_as --user="$db_user" --password="$db_pwd" --database="$db_name" < $install_dir/src/install/sql/sample_data.sql
+
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
@@ -39,9 +41,13 @@ ynh_add_nginx_config
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 ynh_add_config --template="environment.php" --destination="$install_dir/src/config/environment.php"
+#ynh_add_config --template="config.php" --destination="$install_dir/src/config/config.php"
 
 chmod 400 "$install_dir/src/config/environment.php"
 chown $app:$app "$install_dir/src/config/environment.php"
+
+#chmod 400 "$install_dir/src/config/config.php"
+#chown $app:$app "$install_dir/src/config/config.php"
 
 #=================================================
 # END OF SCRIPT

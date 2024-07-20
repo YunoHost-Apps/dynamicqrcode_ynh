@@ -7,9 +7,9 @@ name = "qrcode"
 description.en = "Creat and store static and dynamic QR codes"
 description.fr = "Créer et stocker des codes QR statiques et dynamiques"
 
-version = "2.2~ynh1"
+version = "2.2.7~ynh1"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "MIT"
@@ -43,8 +43,10 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code/archive/refs/tags/v2.2.zip"
-        sha256 = "cb8b6ed893a0552ec54801f7a61a208b38e0860e08ac67d3bead18475c1b816e"
+        url = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code/archive/refs/tags/v2.2.7.zip"
+        sha256 = "565b7560f8b80541ddec03ef55f0c115d70e13a6865ef91f65b8b76c4364ab8c"
+
+        autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -54,7 +56,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php8.1-curl, php8.1-mysqli, php8.1-zip, php8.1-exif, php8.1-mbstring, php8.1-gd"
+    packages = "mariadb-server, php8.3-curl, php8.3-mysqli, php8.3-zip, php8.3-exif, php8.3-mbstring, php8.3-gd"
 
     [resources.database]
     type = "mysql"
