@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # qrcode for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/qrcode.svg)](https://dash.yunohost.org/appci/app/qrcode) ![Working status](https://ci-apps.yunohost.org/ci/badges/qrcode.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/qrcode.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/qrcode.svg)](https://ci-apps.yunohost.org/ci/apps/qrcode/) ![Working status](https://ci-apps.yunohost.org/ci/badges/qrcode.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/qrcode.maintain.svg)
 
 [![Install qrcode with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=qrcode)
 

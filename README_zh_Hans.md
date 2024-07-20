@@ -5,7 +5,7 @@
 
 # YunoHost 上的 qrcode
 
-[![集成程度](https://dash.yunohost.org/integration/qrcode.svg)](https://dash.yunohost.org/appci/app/qrcode) ![工作状态](https://ci-apps.yunohost.org/ci/badges/qrcode.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/qrcode.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/qrcode.svg)](https://ci-apps.yunohost.org/ci/apps/qrcode/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/qrcode.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/qrcode.maintain.svg)
 
 [![使用 YunoHost 安装 qrcode](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=qrcode)
 

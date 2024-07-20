@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # qrcode YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/qrcode.svg)](https://dash.yunohost.org/appci/app/qrcode) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/qrcode.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/qrcode.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/qrcode.svg)](https://ci-apps.yunohost.org/ci/apps/qrcode/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/qrcode.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/qrcode.maintain.svg)
 
 [![Instalatu qrcode YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=qrcode)
 
