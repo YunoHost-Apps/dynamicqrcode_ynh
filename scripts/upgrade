@@ -16,7 +16,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression --message="Upgrading source files..." --weight=1
 
-ynh_setup_source --dest_dir="$install_dir" --keep="src/config/environment.php"
+ynh_setup_source --dest_dir="$install_dir" --full_replace=1 --keep="src/config/environment.php"
 
 chmod -R o-rwx "$install_dir"
 chown -R $app:www-data "$install_dir"
@@ -29,18 +29,6 @@ ynh_script_progression --message="Upgrading system configurations related to $ap
 ynh_add_fpm_config
 
 ynh_add_nginx_config
-
-#=================================================
-# RECONFIGURE THE APP (UPDATE CONF, APPLY MIGRATIONS...)
-#=================================================
-# UPDATE A CONFIG FILE
-#=================================================
-#ynh_script_progression --message="Updating a configuration file..." --weight=1
-
-#ynh_add_config --template="environment.php" --destination="$install_dir/src/config/environment.php"
-
-#chmod 400 "$install_dir/src/config/environment.php"
-#chown $app:$app "$install_dir/src/config/environment.php"
 
 #=================================================
 # END OF SCRIPT

@@ -18,7 +18,7 @@ admindoc = "https://giandonatoinverso.it/qrcode/documentation/"
 code = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.20"
 architectures = "all"
 multi_instance = true
 
