@@ -3,15 +3,15 @@ N.B.: README ini dibuat secara otomatis oleh <https://github.com/YunoHost/apps/t
 Ini TIDAK boleh diedit dengan tangan.
 -->
 
-# qrcode untuk YunoHost
+# Dynamic Qr code untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/qrcode.svg)](https://ci-apps.yunohost.org/ci/apps/qrcode/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/qrcode.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/qrcode.maintain.svg)
+[![Tingkat integrasi](https://dash.yunohost.org/integration/dynamicqrcode.svg)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.maintain.svg)
 
-[![Pasang qrcode dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=qrcode)
+[![Pasang Dynamic Qr code dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dynamicqrcode)
 
 *[Baca README ini dengan bahasa yang lain.](./ALL_README.md)*
 
-> *Paket ini memperbolehkan Anda untuk memasang qrcode secara cepat dan mudah pada server YunoHost.*  
+> *Paket ini memperbolehkan Anda untuk memasang Dynamic Qr code secara cepat dan mudah pada server YunoHost.*  
 > *Bila Anda tidak mempunyai YunoHost, silakan berkonsultasi dengan [panduan](https://yunohost.org/install) untuk mempelajari bagaimana untuk memasangnya.*
 
 ## Ringkasan
@@ -24,25 +24,25 @@ PHP Dynamic Qr code is a script that allows the generation and saving of dynamic
 
 ## Tangkapan Layar
 
-![Tangkapan Layar pada qrcode](./doc/screenshots/screenshot.png)
+![Tangkapan Layar pada Dynamic Qr code](./doc/screenshots/screenshot.png)
 
 ## Dokumentasi dan sumber daya
 
 - Dokumentasi admin resmi: <https://giandonatoinverso.it/qrcode/documentation/>
 - Repositori kode aplikasi hulu: <https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code>
-- Gudang YunoHost: <https://apps.yunohost.org/app/qrcode>
-- Laporkan bug: <https://github.com/YunoHost-Apps/qrcode_ynh/issues>
+- Gudang YunoHost: <https://apps.yunohost.org/app/dynamicqrcode>
+- Laporkan bug: <https://github.com/YunoHost-Apps/dynamicqrcode_ynh/issues>
 
 ## Info developer
 
-Silakan kirim pull request ke [`testing` branch](https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing).
+Silakan kirim pull request ke [`testing` branch](https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing).
 
 Untuk mencoba branch `testing`, silakan dilanjutkan seperti:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing --debug
 atau
-sudo yunohost app upgrade qrcode -u https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing --debug
+sudo yunohost app upgrade dynamicqrcode -u https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing --debug
 ```
 
 **Info lebih lanjut mengenai pemaketan aplikasi:** <https://yunohost.org/packaging_apps>
