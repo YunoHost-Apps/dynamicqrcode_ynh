@@ -1,0 +1,1 @@
+Après l'installation, lancez le fichier `__DOMAIN__/install/setup.php` dans votre navigateur.
