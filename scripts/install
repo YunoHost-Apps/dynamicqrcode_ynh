@@ -53,7 +53,7 @@ ynh_script_progression --message="Setting up application with CURL..."  --weight
 # Installation with cURL
 ynh_local_curl "/install/setup.php" 
 
-ynh_secure_remove --file="$install_dir/install"
+ynh_secure_remove --file="$install_dir/src/install"
 
 #=================================================
 # END OF SCRIPT
