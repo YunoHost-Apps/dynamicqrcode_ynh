@@ -1,1 +1,3 @@
-Après l'installation, lancez le fichier `__DOMAIN__/install/setup.php` dans votre navigateur.
+Identifiants par défaut :
+username: superadmin
+password: superadmin
