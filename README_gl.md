@@ -3,15 +3,15 @@ NOTA: Este README foi creado automáticamente por <https://github.com/YunoHost/a
 NON debe editarse manualmente.
 -->
 
-# qrcode para YunoHost
+# Dynamic Qr code para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/qrcode.svg)](https://ci-apps.yunohost.org/ci/apps/qrcode/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/qrcode.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/qrcode.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/dynamicqrcode.svg)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.maintain.svg)
 
-[![Instalar qrcode con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=qrcode)
+[![Instalar Dynamic Qr code con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dynamicqrcode)
 
 *[Le este README en outros idiomas.](./ALL_README.md)*
 
-> *Este paquete permíteche instalar qrcode de xeito rápido e doado nun servidor YunoHost.*  
+> *Este paquete permíteche instalar Dynamic Qr code de xeito rápido e doado nun servidor YunoHost.*  
 > *Se non usas YunoHost, le a [documentación](https://yunohost.org/install) para saber como instalalo.*
 
 ## Vista xeral
@@ -24,25 +24,25 @@ PHP Dynamic Qr code is a script that allows the generation and saving of dynamic
 
 ## Capturas de pantalla
 
-![Captura de pantalla de qrcode](./doc/screenshots/screenshot.png)
+![Captura de pantalla de Dynamic Qr code](./doc/screenshots/screenshot.png)
 
 ## Documentación e recursos
 
 - Documentación oficial para admin: <https://giandonatoinverso.it/qrcode/documentation/>
 - Repositorio de orixe do código: <https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code>
-- Tenda YunoHost: <https://apps.yunohost.org/app/qrcode>
-- Informar dun problema: <https://github.com/YunoHost-Apps/qrcode_ynh/issues>
+- Tenda YunoHost: <https://apps.yunohost.org/app/dynamicqrcode>
+- Informar dun problema: <https://github.com/YunoHost-Apps/dynamicqrcode_ynh/issues>
 
 ## Info de desenvolvemento
 
-Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing).
+Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing).
 
 Para probar a rama `testing`, procede deste xeito:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade qrcode -u https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing --debug
+sudo yunohost app upgrade dynamicqrcode -u https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing --debug
 ```
 
 **Máis info sobre o empaquetado da app:** <https://yunohost.org/packaging_apps>

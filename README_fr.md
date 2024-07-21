@@ -3,15 +3,15 @@ Nota bene : ce README est automatiquement généré par <https://github.com/Yu
 Il NE doit PAS être modifié à la main.
 -->
 
-# qrcode pour YunoHost
+# Dynamic Qr code pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/qrcode.svg)](https://ci-apps.yunohost.org/ci/apps/qrcode/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/qrcode.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/qrcode.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/dynamicqrcode.svg)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.maintain.svg)
 
-[![Installer qrcode avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=qrcode)
+[![Installer Dynamic Qr code avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dynamicqrcode)
 
 *[Lire le README dans d'autres langues.](./ALL_README.md)*
 
-> *Ce package vous permet d’installer qrcode rapidement et simplement sur un serveur YunoHost.*  
+> *Ce package vous permet d’installer Dynamic Qr code rapidement et simplement sur un serveur YunoHost.*  
 > *Si vous n’avez pas YunoHost, consultez [ce guide](https://yunohost.org/install) pour savoir comment l’installer et en profiter.*
 
 ## Vue d’ensemble
@@ -24,25 +24,25 @@ PHP Dynamic Qr code est un script qui permet la génération et la sauvegarde de
 
 ## Captures d’écran
 
-![Capture d’écran de qrcode](./doc/screenshots/screenshot.png)
+![Capture d’écran de Dynamic Qr code](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
 - Documentation officielle de l’admin : <https://giandonatoinverso.it/qrcode/documentation/>
 - Dépôt de code officiel de l’app : <https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code>
-- YunoHost Store : <https://apps.yunohost.org/app/qrcode>
-- Signaler un bug : <https://github.com/YunoHost-Apps/qrcode_ynh/issues>
+- YunoHost Store : <https://apps.yunohost.org/app/dynamicqrcode>
+- Signaler un bug : <https://github.com/YunoHost-Apps/dynamicqrcode_ynh/issues>
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing).
 
 Pour essayer la branche `testing`, procédez comme suit :
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade qrcode -u https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing --debug
+sudo yunohost app upgrade dynamicqrcode -u https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing --debug
 ```
 
 **Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>

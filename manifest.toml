@@ -2,8 +2,8 @@
 
 packaging_format = 2
 
-id = "qrcode"
-name = "qrcode"
+id = "dynamicqrcode"
+name = "Dynamic Qr code"
 description.en = "Creat and store static and dynamic QR codes"
 description.fr = "Créer et stocker des codes QR statiques et dynamiques"
 
@@ -18,7 +18,7 @@ admindoc = "https://giandonatoinverso.it/qrcode/documentation/"
 code = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.20"
 architectures = "all"
 multi_instance = true
 

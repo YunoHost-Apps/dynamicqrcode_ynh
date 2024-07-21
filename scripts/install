@@ -41,13 +41,19 @@ ynh_mysql_connect_as --user="$db_user" --password="$db_pwd" --database="$db_name
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 ynh_add_config --template="environment.php" --destination="$install_dir/src/config/environment.php"
-#ynh_add_config --template="config.php" --destination="$install_dir/src/config/config.php"
 
 chmod 400 "$install_dir/src/config/environment.php"
 chown $app:$app "$install_dir/src/config/environment.php"
 
-#chmod 400 "$install_dir/src/config/config.php"
-#chown $app:$app "$install_dir/src/config/config.php"
+#=================================================
+# SETUP APPLICATION WITH CURL
+#=================================================
+ynh_script_progression --message="Setting up application with CURL..."  --weight=1
+
+# Installation with cURL
+ynh_local_curl "/install/setup.php" 
+
+ynh_secure_remove --file="$install_dir/src/install"
 
 #=================================================
 # END OF SCRIPT

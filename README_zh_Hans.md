@@ -3,15 +3,15 @@
 请勿手动编辑。
 -->
 
-# YunoHost 上的 qrcode
+# YunoHost 上的 Dynamic Qr code
 
-[![集成程度](https://dash.yunohost.org/integration/qrcode.svg)](https://ci-apps.yunohost.org/ci/apps/qrcode/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/qrcode.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/qrcode.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/dynamicqrcode.svg)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.maintain.svg)
 
-[![使用 YunoHost 安装 qrcode](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=qrcode)
+[![使用 YunoHost 安装 Dynamic Qr code](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dynamicqrcode)
 
 *[阅读此 README 的其它语言版本。](./ALL_README.md)*
 
-> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 qrcode。*  
+> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 Dynamic Qr code。*  
 > *如果您还没有 YunoHost，请参阅[指南](https://yunohost.org/install)了解如何安装它。*
 
 ## 概况
@@ -24,25 +24,25 @@ PHP Dynamic Qr code is a script that allows the generation and saving of dynamic
 
 ## 截图
 
-![qrcode 的截图](./doc/screenshots/screenshot.png)
+![Dynamic Qr code 的截图](./doc/screenshots/screenshot.png)
 
 ## 文档与资源
 
 - 官方管理文档： <https://giandonatoinverso.it/qrcode/documentation/>
 - 上游应用代码库： <https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code>
-- YunoHost 商店： <https://apps.yunohost.org/app/qrcode>
-- 报告 bug： <https://github.com/YunoHost-Apps/qrcode_ynh/issues>
+- YunoHost 商店： <https://apps.yunohost.org/app/dynamicqrcode>
+- 报告 bug： <https://github.com/YunoHost-Apps/dynamicqrcode_ynh/issues>
 
 ## 开发者信息
 
-请向 [`testing` 分支](https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing) 发送拉取请求。
+请向 [`testing` 分支](https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing) 发送拉取请求。
 
 如要尝试 `testing` 分支，请这样操作：
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing --debug
 或
-sudo yunohost app upgrade qrcode -u https://github.com/YunoHost-Apps/qrcode_ynh/tree/testing --debug
+sudo yunohost app upgrade dynamicqrcode -u https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing --debug
 ```
 
 **有关应用打包的更多信息：** <https://yunohost.org/packaging_apps>
