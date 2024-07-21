@@ -2,8 +2,8 @@
 
 packaging_format = 2
 
-id = "qrcode"
-name = "qrcode"
+id = "dynamicqrcode"
+name = "Dynamic Qr code"
 description.en = "Creat and store static and dynamic QR codes"
 description.fr = "Créer et stocker des codes QR statiques et dynamiques"
 
