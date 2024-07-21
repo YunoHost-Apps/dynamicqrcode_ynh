@@ -16,6 +16,7 @@ license = "MIT"
 demo = "https://giandonatoinverso.it/qrcode/login.php"
 admindoc = "https://giandonatoinverso.it/qrcode/documentation/"
 code = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code"
+fund = "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=UEYVHYZYCGYYN&ssrt=1721569776450"
 
 [integration]
 yunohost = ">= 11.2.20"
