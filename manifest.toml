@@ -5,7 +5,7 @@ packaging_format = 2
 id = "dynamicqrcode"
 name = "Dynamic Qr code"
 description.en = "Create and store static and dynamic QR codes"
-description.fr = "Créer et stocker des codes QR statiques et dynamiques"
+description.fr = "Créer et stocker des QR codes statiques et dynamiques"
 
 version = "2.2.7~ynh1"
 
