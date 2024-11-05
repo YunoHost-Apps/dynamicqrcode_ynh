@@ -29,7 +29,7 @@ PHP Dynamic Qr code is a script that allows the generation and saving of dynamic
 ## Dokumentasi dan sumber daya
 
 - Dokumentasi admin resmi: <https://giandonatoinverso.it/qrcode/documentation/>
-- Repositori kode aplikasi hulu: <https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code>
+- Depot kode aplikasi hulu: <https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code>
 - Gudang YunoHost: <https://apps.yunohost.org/app/dynamicqrcode>
 - Laporkan bug: <https://github.com/YunoHost-Apps/dynamicqrcode_ynh/issues>
 
