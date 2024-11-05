@@ -18,7 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 PHP Dynamic Qr code is a script that allows the generation and saving of dynamic and static QR codes. It has a clean, responsive, and user-friendly design. It is based on AdminLte. Built on top of Bootstrap" and Core PHP Admin Panel, a simple Admin Panel written in core PHP that contains an implementation of general features you might need in your website admin panel like: record management (CRUD), secure authentication, pagination, filters.
 
-**Versi terkirim:** 2.2.7~ynh1
+**Versi terkirim:** 2.2.7~ynh2
 
 **Demo:** <https://giandonatoinverso.it/qrcode/login.php>
 
@@ -29,7 +29,7 @@ PHP Dynamic Qr code is a script that allows the generation and saving of dynamic
 ## Dokumentasi dan sumber daya
 
 - Dokumentasi admin resmi: <https://giandonatoinverso.it/qrcode/documentation/>
-- Repositori kode aplikasi hulu: <https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code>
+- Depot kode aplikasi hulu: <https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code>
 - Gudang YunoHost: <https://apps.yunohost.org/app/dynamicqrcode>
 - Laporkan bug: <https://github.com/YunoHost-Apps/dynamicqrcode_ynh/issues>
 
