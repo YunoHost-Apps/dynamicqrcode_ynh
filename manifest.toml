@@ -19,13 +19,12 @@ code = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code"
 fund = "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=UEYVHYZYCGYYN&ssrt=1721569776450"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 12.0.8"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
