@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Dynamic Qr code for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/dynamicqrcode.svg)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/) ![Working status](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/dynamicqrcode)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/)
+![Working status](https://apps.yunohost.org/badge/state/dynamicqrcode)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/dynamicqrcode)
 
 [![Install Dynamic Qr code with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dynamicqrcode)
 
@@ -18,7 +20,7 @@ It shall NOT be edited by hand.
 
 PHP Dynamic Qr code is a script that allows the generation and saving of dynamic and static QR codes. It has a clean, responsive, and user-friendly design. It is based on AdminLte. Built on top of Bootstrap" and Core PHP Admin Panel, a simple Admin Panel written in core PHP that contains an implementation of general features you might need in your website admin panel like: record management (CRUD), secure authentication, pagination, filters.
 
-**Shipped version:** 2.2.7~ynh1
+**Shipped version:** 2.2.7~ynh2
 
 **Demo:** <https://giandonatoinverso.it/qrcode/login.php>
 
