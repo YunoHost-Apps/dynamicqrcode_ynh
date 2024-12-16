@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Dynamic Qr code voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/dynamicqrcode.svg)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/dynamicqrcode)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/dynamicqrcode)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/dynamicqrcode)
 
 [![Dynamic Qr code met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dynamicqrcode)
 

@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Dynamic Qr code
 
-[![集成程度](https://dash.yunohost.org/integration/dynamicqrcode.svg)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/dynamicqrcode)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/)
+![工作状态](https://apps.yunohost.org/badge/state/dynamicqrcode)
+![维护状态](https://apps.yunohost.org/badge/maintained/dynamicqrcode)
 
 [![使用 YunoHost 安装 Dynamic Qr code](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dynamicqrcode)
 

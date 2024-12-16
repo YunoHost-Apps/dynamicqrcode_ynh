@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Dynamic Qr code YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/dynamicqrcode.svg)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/dynamicqrcode.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/dynamicqrcode)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/dynamicqrcode)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/dynamicqrcode)
 
 [![Instalatu Dynamic Qr code YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dynamicqrcode)
 
