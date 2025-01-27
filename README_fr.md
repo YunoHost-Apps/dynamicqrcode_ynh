@@ -20,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 PHP Dynamic Qr code est un script qui permet la génération et la sauvegarde de codes QR dynamiques et statiques. Il a un design épuré, réactif et convivial. Il est basé sur AdminLte. Construit sur Bootstrap" et Core PHP Admin Panel, un simple panneau d'administration écrit en PHP de base qui contient une implémentation de fonctionnalités générales dont vous pourriez avoir besoin dans le panneau d'administration de votre site Web, telles que : gestion des enregistrements (CRUD), authentification sécurisée, pagination, filtres.
 
-**Version incluse :** 2.2.7~ynh2
+**Version incluse :** 2.3~ynh1
 
 **Démo :** <https://giandonatoinverso.it/qrcode/login.php>
 
