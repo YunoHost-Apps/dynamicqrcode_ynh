@@ -25,6 +25,7 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
+
 sso = false
 
 disk = "50M"
@@ -43,11 +44,15 @@ ram.runtime = "50M"
 
     [resources.sources]
 
-        [resources.sources.main]
-        url = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code/archive/refs/tags/v2.3.tar.gz"
-        sha256 = "6075a91245023b94c67731336b88e2f3047b4b1b37bad43caa698f026b5aa1f0"
+    [resources.sources.main]
+    url = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code/archive/refs/tags/v2.3.tar.gz"
+    sha256 = "6075a91245023b94c67731336b88e2f3047b4b1b37bad43caa698f026b5aa1f0"
+    autoupdate.strategy = "latest_github_tag"
 
-        autoupdate.strategy = "latest_github_tag"
+    [resources.sources.db]
+    url = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code-db/archive/fb425e976b0ab209ee0566efb0c6e07e3586ccb4.tar.gz"
+    sha256 = "e2d98c0d2939197bbce7412af6302bff2f8818ec471730cd511cc60364ad0344"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
