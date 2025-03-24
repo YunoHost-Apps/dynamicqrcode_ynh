@@ -39,7 +39,7 @@ PHP Dynamic Qr code is a script that allows the generation and saving of dynamic
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/dynamicqrcode_ynh/tree/testing --debug

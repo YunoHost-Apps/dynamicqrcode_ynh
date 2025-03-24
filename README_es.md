@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Dynamic Qr code para Yunohost
+# Dynamic Qr code para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/dynamicqrcode)](https://ci-apps.yunohost.org/ci/apps/dynamicqrcode/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/dynamicqrcode)
