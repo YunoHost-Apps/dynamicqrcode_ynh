@@ -7,7 +7,7 @@ name = "Dynamic Qr code"
 description.en = "Create and store static and dynamic QR codes"
 description.fr = "Créer et stocker des QR codes statiques et dynamiques"
 
-version = "2.2.7~ynh2"
+version = "2.3.0~ynh1"
 
 maintainers = []
 
@@ -44,8 +44,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code/archive/refs/tags/v2.2.7.zip"
-        sha256 = "565b7560f8b80541ddec03ef55f0c115d70e13a6865ef91f65b8b76c4364ab8c"
+        url = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code/archive/refs/tags/v2.3.zip"
+        sha256 = "5e318c4a355a5aafc362f0016a4c4d78bf87a537e4cf809b7bc577d8f9f49a72f"
 
         autoupdate.strategy = "latest_github_tag"
 
