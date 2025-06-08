@@ -19,7 +19,7 @@ ynh_config_add_phpfpm
 
 ynh_config_add_nginx
 
-ynh_mysql_db_shell < $install_dir/src/install/sql/sample_data.sql
+#ynh_mysql_db_shell < $install_dir/src/install/sql/sample_data.sql
 
 #=================================================
 # ADD A CONFIGURATION

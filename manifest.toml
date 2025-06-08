@@ -45,7 +45,7 @@ ram.runtime = "50M"
 
         [resources.sources.main]
         url = "https://github.com/giandonatoinverso/PHP-Dynamic-Qr-code/archive/refs/tags/v2.3.zip"
-        sha256 = "5e318c4a355a5aafc362f0016a4c4d78bf87a537e4cf809b7bc577d8f9f49a72f"
+        sha256 = "e318c4a355a5aafc362f0016a4c4d78bf87a537e4cf809b7bc577d8f9f49a72f"
 
         autoupdate.strategy = "latest_github_tag"
 
