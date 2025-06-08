@@ -33,9 +33,9 @@ ynh_config_add --template="environment.php" --destination="$install_dir/src/conf
 #=================================================
 ynh_script_progression "Setting up application with CURL..."
 
-ynh_local_curl "/install/setup.php"
+#ynh_local_curl "/install/setup.php"
 
-ynh_safe_rm "$install_dir/src/install"
+#ynh_safe_rm "$install_dir/src/install"
 
 #=================================================
 # END OF SCRIPT
